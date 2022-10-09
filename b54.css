@@ -1,0 +1,244 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1440px;
+  height: 5000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  background: #fff;
+}
+
+header {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 100px;
+  z-index: 100000;
+}
+header .logo {
+  position: relative;
+  font-weight: 700;
+  color: #2a2b2f;
+  text-decoration: none;
+  font-size: 2em;
+  letter-spacing: 2px;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  position: relative;
+  list-style: none;
+}
+
+header ul li a {
+  position: absolute;
+  width: 79px;
+  height: 21px;
+  left: 102px;
+  top: 0px;
+}
+header .button-search {
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 22px;
+  gap: 10px;
+  width: 139px;
+  height: 49px;
+}
+
+.menu-bar ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 31px 99px;
+  gap: 60px;
+  position: absolute;
+  width: 1440px;
+  height: 114px;
+  right: 110px;
+  top: 0px;
+}
+
+.menu-bar ul li {
+  width: 123px;
+  margin: 15px;
+  padding: 10px;
+}
+
+.menu-bar ul li a {
+  position: absolute;
+  width: 125px;
+  height: 21px;
+  left: 102px;
+  top: 0px;
+  text-align: center;
+  text-decoration: none;
+  color: #404040;
+}
+
+button .search {
+  background-color: #263fa4;
+  border-radius: 8px;
+}
+
+body .top .text-header {
+  width: 1440px;
+  height: 838px;
+  margin-top: 237px;
+  margin-left: 100px;
+  flex: none;
+  align-items: stretch;
+  flex-grow: 1;
+  z-index: 0;
+}
+
+body .top .img-top {
+  position: absolute;
+  display: flex;
+  width: 498px;
+  height: 598px;
+  right: 275px;
+}
+
+body .frameb .button_play {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 22px;
+  gap: 10px;
+  width: 139px;
+  height: 49px;
+}
+
+body .frameb .icon_play {
+  width: 48px;
+  height: 48px;
+  background: #fff;
+  box-shadow: 1px 1px 13px rgba(0, 0, 0, 0.19);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+body .frameb span .text_ic {
+  width: 81px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ff7b29;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+nav {
+  display: flex;
+}
+
+body .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 40px 0;
+}
+
+body .container .card {
+  position: relative;
+  min-width: 320px;
+  height: 440px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  margin: 30px;
+  transition: 0.5s;
+}
+
+body .container .card .box .content a {
+  color: #263fa4;
+}
+
+body .container .card .box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #2a2b2f;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+body .container .card .box .content {
+  padding: 20px;
+  text-align: center;
+}
+
+body .container .card .box .content h3 {
+  color: #fff;
+}
+
+body .container .card .box .content h2 {
+  font-size: 1.5rem;
+  color: #fff;
+  z-index: 1;
+  transition: 0.5s;
+  margin-bottom: 15px;
+}
+
+body .container .card .box .content p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.9);
+  z-index: 1;
+  transition: 0.5s;
+}
+
+body .container .card .box .content a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  background: black;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+body .container .card .box .content a:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+  background: #fff;
+  color: #000;
+}
